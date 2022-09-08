@@ -21,7 +21,8 @@ const index = () => {
   return (
     <div className="">
       <div className='text-center mt-10 '>
-        <button onClick={onClickCountUp} className='border-black border py-2 px-6  rounded'>カウントアップ</button>
+          
+        <button onClick={onClickCountUp} className=' border-black border py-2 px-6  rounded'>カウントアップ</button>
         <p>{num}</p>
         {imageShowFlag && <Image src={"/001.jpeg"} width={"600"} height={"400"}></Image>}
       </div>
